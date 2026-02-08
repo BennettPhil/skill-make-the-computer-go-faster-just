@@ -12,7 +12,7 @@ Implement the idea: make the computer go faster. just make it faster. optimize e
 my laptop is slow and i dont want to buy a new one
 
 # Builder Influence
-Use a concise, validation-first workflow derived from the selected builder guidance: --- name: test-driven-builder description: A builder that generates Agent Skills by writing tests first, then building the implementation to satisfy them. version: 0.1.0 license: Apache-2.0 ---
+Use a concise, validation-first workflow derived from the selected builder guidance: --- name: validation-first-builder description: A builder that generates Agent Skills with executable validation as the primary quality gate - smoke tests must pass before any output is finalized. version: 0.3.0 license: Apache-2.0 ---
 
 # Workflow
 1. Clarify assumptions and constraints before implementation.
